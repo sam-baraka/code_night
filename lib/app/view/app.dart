@@ -1,4 +1,4 @@
-import 'package:code_night/counter/counter.dart';
+import 'package:code_night/app/survery/view/survey_page.dart';
 import 'package:code_night/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const SurveyPage(),
     );
   }
 }
